@@ -63,7 +63,7 @@ GreensFunctionPart::GreensFunctionPart( const AnnihilationOperatorPart& C, const
                                         HpartInner(HpartInner), HpartOuter(HpartOuter),
                                         DMpartInner(DMpartInner), DMpartOuter(DMpartOuter),
                                         C(C), CX(CX),
-                                        MatrixElementTolerance(1e-8),
+                                        MatrixElementTolerance(1e-14),
                                         ReduceResonanceTolerance(1e-8),
                                         ReduceTolerance(1e-8) 
 {}
